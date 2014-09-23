@@ -113,17 +113,17 @@ There is no need to upgrade just yet.
 
 
 ###1. Newsletter Subscription checkbox on the Affiliate Registration Page
-###![Screenshot 1](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/master/assets/screenshot-1.png)
+###![Screenshot 1](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/dev/assets/screenshot-1.png)
 
 ###2. Add Affiliate to Newsletter from the AffiliateWP add new Affiliate page in the admin backend.
-###![Screenshot 2](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/master/assets/screenshot-2.png)
+###![Screenshot 2](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/dev/assets/screenshot-2.png)
 
 ###3. AffiliateWP GetResponse Add-On Settings
-###![Screenshot 3](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/master/assets/screenshot-3.png)
+###![Screenshot 3](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/dev/assets/screenshot-3.png)
 
 
 ###4. Subscribe checkbox on Affiliate Settings tab.
-###![Screenshot 4](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/master/assets/screenshot-4.png)
+###![Screenshot 4](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/dev/assets/screenshot-4.png)
 
 ###4. Export registered Affiliate to GetResponse Campaign
-###![Screenshot 5](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/master/assets/screenshot-5.png)
+###![Screenshot 5](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/dev/assets/screenshot-5.png)
