@@ -1,27 +1,19 @@
-# AffiliateWP GetResponse Add-On #
-**Contributors:** tubiz
-
-**Donate link:** http://bosun.me/donate
-
-**Tags:** affiliatewp, affiliate wp, getresponse, tubiz plugins, nigeria, e-commerce, ecommerce, Tunbosun Ayinla
-
-**Requires at least:** 3.8
-
-**Tested up to:** 4.0
-
-**Stable tag:** 1.0.0
-
-**License:** GPLv2 or later
-
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html
-
+=== AffiliateWP GetResponse Add-On ===
+Contributors: tubiz
+Donate link: http://bosun.me/donate
+Tags: affiliatewp, affiliate wp, getresponse, tubiz plugins, nigeria, e-commerce, ecommerce, Tunbosun Ayinla
+Requires at least: 3.8
+Tested up to: 4.0
+Stable tag: 1.0.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 AffiliateWP GetResponse Add-on allow an Affiliate to be added to your GetResponse campaign.
 
 
 
 
-## Description ##
+== Description ==
 
 > This plugin requires [AffiliateWP](http://affiliatewp.com/) to be installed and activated on your site. <strong>It will NOT function without it</strong>.
 
@@ -31,28 +23,28 @@ An admin can also choose whether to add an affiliate to the newsletter when addi
 
 To export registered Affiliates to your GetResponse campaign, click the "Tools" sub-menu.
 
-### What is AffiliateWP? ###
+= What is AffiliateWP? =
 
 [AffiliateWP](http://affiliatewp.com/) provides a complete affiliate management system for your WordPress website that seamlessly integrates with all major WordPress e-commerce and membership platforms. It aims to provide everything you need in a simple, clean, easy to use system that you will love to use.
 
 
 
-### Suggestions / Feature Request ###
+= Suggestions / Feature Request =
 
 If you have suggestions or a new feature request, feel free to get in touch with me via the contact form on my website [here](http://bosun.me/get-in-touch/)
 
 You can also follow me on Twitter! **[@tubiz](http://twitter.com/tubiz)**
 
 
-### Contribute ###
+= Contribute =
 To contribute to this plugin feel free to fork it on GitHub [AffiliateWP GetResponse Add-On on GitHub](https://github.com/tubiz/affiliatewp-getresponse-add-on)
 
 
 
 
-## Installation ##
+== Installation ==
 
-### Automatic Installation ###
+= Automatic Installation =
 * 	Login to your WordPress Admin area
 * 	Go to "Plugins > Add New" from the left hand menu
 * 	In the search box type "AffiliateWP GetResponse Add-On"
@@ -62,7 +54,7 @@ To contribute to this plugin feel free to fork it on GitHub [AffiliateWP GetResp
 * If successful, click "Activate Plugin" to activate it.
 * To configure the plugin visit the AffiliateWP GetResponse Settings section below.
 
-### Manual Installation ###
+= Manual Installation =
 * 	Download the plugin zip file
 * 	Login to your WordPress Admin. Click on "Plugins > Add New" from the left hand menu.
 *  Click on the "Upload" option, then click "Choose File" to select the zip file from your computer. Once selected, press "OK" and press the "Install Now" button.
@@ -70,7 +62,7 @@ To contribute to this plugin feel free to fork it on GitHub [AffiliateWP GetResp
 * 	To configure the plugin visit the AffiliateWP GetResponse Settings section below.
 
 
-### AffiliateWP GetResponse Settings ###
+= AffiliateWP GetResponse Settings =
 To configure the AffiliateWP GetResponse Add-On plugin
 1. 	Open the settings page for AffiliateWP and click the "Integrations" tab.
 2. 	Scroll down a bit and you will see a section for "AffiliateWP GetResponse Settings".
@@ -84,9 +76,9 @@ To configure the AffiliateWP GetResponse Add-On plugin
 * Click on __Save Changes__ for the changes you made to be effected.
 
 
-## Frequently Asked Questions ##
+== Frequently Asked Questions ==
 
-### What Do I Need To Use The Plugin ###
+= What Do I Need To Use The Plugin =
 
 1.	You need to have the [AffiliateWP](http://affiliatewp.com/) plugin installed and activated on your WordPress site.
 
@@ -94,36 +86,31 @@ To configure the AffiliateWP GetResponse Add-On plugin
 
 
 
-## Changelog ##
+== Changelog ==
 
-### 1.0.0 ###
+= 1.0.0 =
 *   Initial release
 
 
 
-## Upgrade Notice ##
+== Upgrade Notice ==
 
 There is no need to upgrade just yet.
 
 
 
 
-## Screenshots ##
 
 
+== Screenshots ==
 
-###1. Newsletter Subscription checkbox on the Affiliate Registration Page
-###![Screenshot 1](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/master/assets/screenshot-1.png)
+1. Newsletter Subscription checkbox on the Affiliate Registration Page
 
-###2. Add Affiliate to Newsletter from the AffiliateWP add new Affiliate page in the admin backend.
-###![Screenshot 2](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/master/assets/screenshot-2.png)
+2. Add Affiliate to Newsletter from the AffiliateWP add new Affiliate page in the admin backend.
 
-###3. AffiliateWP GetResponse Add-On Settings
-###![Screenshot 3](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/master/assets/screenshot-3.png)
+3. AffiliateWP GetResponse Add-On Settings
 
+4. Newsletter Subscription checkbox on the Affiliate Settings Page
 
-###4. Subscribe checkbox on Affiliate Settings tab.
-###![Screenshot 4](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/master/assets/screenshot-4.png)
+5. Export registered Affiliate to GetResponse Campaign
 
-###4. Export registered Affiliate to GetResponse Campaign
-###![Screenshot 5](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/master/assets/screenshot-5.png)
