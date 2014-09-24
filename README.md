@@ -125,5 +125,5 @@ There is no need to upgrade just yet.
 ###4. Subscribe checkbox on Affiliate Settings tab.
 ###![Screenshot 4](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/master/assets/screenshot-4.png)
 
-###4. Export registered Affiliate to GetResponse Campaign
+###5. Export registered Affiliate to GetResponse Campaign
 ###![Screenshot 5](https://github.com/tubiz/affiliatewp-getresponse-add-on/blob/master/assets/screenshot-5.png)
