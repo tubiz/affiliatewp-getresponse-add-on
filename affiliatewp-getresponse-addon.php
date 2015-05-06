@@ -3,7 +3,7 @@
     Plugin Name: AffiliateWP GetResponse Add-on
     Plugin URI: http://bosun.me/affiliatewp-getresponse-addon
     Description: Adds a checkbox for new affiliate to subscribe to your GetResponse Campaign during signup.
-    Version: 1.0.0
+    Version: 1.1.0
     Author: Tunbosun Ayinla
     Author URI: http://www.bosun.me
     License:           GPL-2.0+
@@ -441,7 +441,9 @@ if( ! class_exists( 'AffiliateWP_GetResponse_Add_on' ) ){
                     array (
                         'campaign'  => $getresponse_campaign_id,
                         'name'      => $name,
-                        'email'     => $email
+                        'email'     => $email,
+                        'ip'        => $_SERVER['REMOTE_ADDR'],
+                        'cycle_day' => 0
                     )
                 );
 

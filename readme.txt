@@ -3,8 +3,8 @@ Contributors: tubiz
 Donate link: http://bosun.me/donate
 Tags: affiliatewp, affiliate wp, getresponse, tubiz plugins, nigeria, e-commerce, ecommerce, Tunbosun Ayinla
 Requires at least: 3.8
-Tested up to: 4.1
-Stable tag: 1.0.0
+Tested up to: 4.2
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -88,6 +88,9 @@ To configure the AffiliateWP GetResponse Add-On plugin
 
 == Changelog ==
 
+= 1.1.0 =
+*	Fix: Set contact cycle for new subscriber
+
 = 1.0.0 =
 *   Initial release
 
@@ -95,8 +98,8 @@ To configure the AffiliateWP GetResponse Add-On plugin
 
 == Upgrade Notice ==
 
-There is no need to upgrade just yet.
-
+= 1.1.0 =
+*	Set contact cycle for new subscriber
 
 
 

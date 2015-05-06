@@ -7,9 +7,9 @@
 
 **Requires at least:** 3.8
 
-**Tested up to:** 4.1
+**Tested up to:** 4.2
 
-**Stable tag:** 1.0.0
+**Stable tag:** 1.1.0
 
 **License:** GPLv2 or later
 
@@ -96,6 +96,9 @@ To configure the AffiliateWP GetResponse Add-On plugin
 
 ## Changelog ##
 
+### 1.1.0 ###
+*	Fix: Set contact cycle for new subscriber
+
 ### 1.0.0 ###
 *   Initial release
 
@@ -103,8 +106,8 @@ To configure the AffiliateWP GetResponse Add-On plugin
 
 ## Upgrade Notice ##
 
-There is no need to upgrade just yet.
-
+### 1.1.0 ###
+*	Set contact cycle for new subscriber
 
 
 
