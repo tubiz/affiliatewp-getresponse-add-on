@@ -9,7 +9,7 @@
 
 **Tested up to:** 4.2
 
-**Stable tag:** 1.1.0
+**Stable tag:** 1.2.0
 
 **License:** GPLv2 or later
 
@@ -96,6 +96,9 @@ To configure the AffiliateWP GetResponse Add-On plugin
 
 ## Changelog ##
 
+## 1.2.0 ###
+*	Fix: Already registered user not being added to GetResponse when signing up as an Affiliate
+
 ### 1.1.0 ###
 *	Fix: Set contact cycle for new subscriber
 
@@ -106,8 +109,8 @@ To configure the AffiliateWP GetResponse Add-On plugin
 
 ## Upgrade Notice ##
 
-### 1.1.0 ###
-*	Set contact cycle for new subscriber
+### 1.2.0 ###
+*	Fix: Already registered user not being added to GetResponse when signing up as an Affiliate
 
 
 

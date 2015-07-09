@@ -3,7 +3,7 @@
     Plugin Name: AffiliateWP GetResponse Add-on
     Plugin URI: http://bosun.me/affiliatewp-getresponse-addon
     Description: Adds a checkbox for new affiliate to subscribe to your GetResponse Campaign during signup.
-    Version: 1.1.0
+    Version: 1.2.0
     Author: Tunbosun Ayinla
     Author URI: http://www.bosun.me
     License:           GPL-2.0+
@@ -28,7 +28,7 @@ if( ! class_exists( 'AffiliateWP_GetResponse_Add_on' ) ){
 
         private function __construct() {
             add_action( 'admin_init', array( $this, 'activation' ) );
-            add_action( 'affwp_settings_integrations', array( $this, 'affwp_getresponse_settings' ), 10 , 1 );
+            add_filter( 'affwp_settings_integrations', array( $this, 'affwp_getresponse_settings' ), 10 );
             add_action( 'affwp_register_user', array( $this, 'affwp_getresponse_add_user_to_list'), 10 , 2 );
 
             if( !is_admin() ) {
@@ -202,9 +202,21 @@ if( ! class_exists( 'AffiliateWP_GetResponse_Add_on' ) ){
 
             if( ! empty( $_POST['affwp_getresponse_subscribe'] ) && ! empty( $getresponse_api_key ) ) {
 
-                $name   = ucwords( sanitize_text_field( $_POST['affwp_user_name'] ) );
+                if( is_user_logged_in() ){
 
-                $email  = sanitize_text_field( $_POST['affwp_user_email'] );
+                    global $wpdb;
+
+                    $user_id = get_current_user_id();
+
+                    $email   = $wpdb->get_var( $wpdb->prepare( "SELECT user_email FROM $wpdb->users WHERE ID = '%d'", $user_id ) );
+                    $name    = $wpdb->get_var( $wpdb->prepare( "SELECT display_name FROM $wpdb->users WHERE ID = '%d'", $user_id ) );
+                }
+                else{
+                    $name   = ucwords( sanitize_text_field( $_POST['affwp_user_name'] ) );
+                    $email  = sanitize_text_field( $_POST['affwp_user_email'] );
+                    $affiliate      = affiliate_wp()->affiliates->get_by( 'affiliate_id', $affiliate_id );
+                    $user_id        = $affiliate->user_id;
+                }
 
                 $this->affwp_add_to_getresponse( $name, $email, $user_id );
 
