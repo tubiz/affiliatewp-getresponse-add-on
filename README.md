@@ -5,9 +5,9 @@
 
 **Tags:** affiliatewp, affiliate wp, getresponse, tubiz plugins, nigeria, e-commerce, ecommerce, Tunbosun Ayinla
 
-**Requires at least:** 3.8
+**Requires at least:** 4.1
 
-**Tested up to:** 4.2
+**Tested up to:** 4.4
 
 **Stable tag:** 1.2.0
 
